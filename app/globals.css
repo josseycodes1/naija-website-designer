@@ -11,7 +11,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-/* Custom pink colors */
+
 .text-pink-primary {
     color: #ff69b4;
 }
@@ -28,7 +28,7 @@ body {
     background-color: #ffa6c9;
 }
 
-/* Hide scrollbar */
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -36,3 +36,31 @@ body {
 * {
     scroll-behavior: smooth;
 }
+
+
+:root {
+  
+  --color-josseypink1: #f472b6;  /* pink-400 */
+  --color-josseypink2: #f9a8d4;  /* pink-300 */
+  --color-josseypink3: #ec4899;  /* pink-500 */
+  --color-josseypink4: #fbcfe8;  /* pink-200 */
+  --color-josseypink5: #db2777;  /* pink-600 */
+}
+
+
+.text-josseypink1 { color: var(--color-josseypink1); }
+.bg-josseypink1 { background-color: var(--color-josseypink1); }
+.border-josseypink1 { border-color: var(--color-josseypink1); }
+
+.text-josseypink2 { color: var(--color-josseypink2); }
+.bg-josseypink2 { background-color: var(--color-josseypink2); }
+.border-josseypink2 { border-color: var(--color-josseypink2); }
+
+.text-josseypink3 { color: var(--color-josseypink3); }
+.bg-josseypink3 { background-color: var(--color-josseypink3); }
+
+.text-josseypink4 { color: var(--color-josseypink4); }
+.bg-josseypink4 { background-color: var(--color-josseypink4); }
+
+.text-josseypink5 { color: var(--color-josseypink5); }
+.bg-josseypink5 { background-color: var(--color-josseypink5); }

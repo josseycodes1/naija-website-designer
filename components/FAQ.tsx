@@ -36,7 +36,7 @@ export default function FAQ() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             FAQs
           </h2>
-          <div className="w-24 h-1 bg-[#ff69b4] mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-josseypink1 mx-auto mb-6 rounded-full"></div>
         </div>
 
         <div className="max-w-3xl mx-auto">
@@ -50,9 +50,9 @@ export default function FAQ() {
                   {item.question}
                 </span>
                 {openIndex === index ? (
-                  <Minus size={20} className="text-[#ff69b4] flex-shrink-0" />
+                  <Minus size={20} className="text-josseypink1 flex-shrink-0" />
                 ) : (
-                  <Plus size={20} className="text-[#ff69b4] flex-shrink-0" />
+                  <Plus size={20} className="text-josseypink1 flex-shrink-0" />
                 )}
               </button>
               

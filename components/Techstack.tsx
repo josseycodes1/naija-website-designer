@@ -11,7 +11,7 @@ export default function TechStack() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Technologies We Use
           </h2>
-          <div className="w-24 h-1 bg-[#ff69b4] mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-josseypink1 mx-auto mb-6 rounded-full"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Our tech stack includes modern tools and frameworks to deliver cutting-edge solutions
           </p>
@@ -21,9 +21,9 @@ export default function TechStack() {
           {technologies.map((tech, index) => (
             <div 
               key={index}
-              className="bg-white px-6 py-3 rounded-full border border-gray-200 hover:border-[#ff69b4] hover:text-[#ff69b4] transition-all duration-300 shadow-sm"
+              className="bg-white px-6 py-3 rounded-full border border-gray-200 hover:border-josseypink1 hover:text-josseypink1 transition-all duration-300 shadow-sm"
             >
-              <span className="font-medium text-gray-700 hover:text-[#ff69b4] transition-colors">
+              <span className="font-medium text-gray-700 hover:text-josseypink1 transition-colors">
                 {tech}
               </span>
             </div>

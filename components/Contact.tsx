@@ -50,7 +50,7 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Get In Touch
           </h2>
-          <div className="w-24 h-1 bg-[#ff69b4] mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-josseypink1 mx-auto mb-6 rounded-full"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Ready to start your project? Contact us today and let's bring your ideas to life.
           </p>
@@ -63,7 +63,7 @@ export default function Contact() {
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-[#ff69b4] rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-josseypink1 rounded-full flex items-center justify-center flex-shrink-0">
                   <Mail size={20} className="text-white" />
                 </div>
                 <div>
@@ -74,7 +74,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-[#ff69b4] rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-josseypink1 rounded-full flex items-center justify-center flex-shrink-0">
                   <Phone size={20} className="text-white" />
                 </div>
                 <div>
@@ -85,7 +85,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-[#ff69b4] rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-josseypink1 rounded-full flex items-center justify-center flex-shrink-0">
                   <MapPin size={20} className="text-white" />
                 </div>
                 <div>
@@ -104,7 +104,7 @@ export default function Contact() {
                   href="https://wa.me/2347051523893" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-[#ff69b4] rounded-full flex items-center justify-center hover:bg-[#ffa6c9] text-white transition-colors"
+                  className="w-10 h-10 bg-josseypink1 rounded-full flex items-center justify-center hover:bg-josseypink2 text-white transition-colors"
                 >
                   <Mail size={18} />
                 </a>
@@ -112,7 +112,7 @@ export default function Contact() {
                   href="https://instagram.com/naija_website_designer" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-[#ff69b4] rounded-full flex items-center justify-center hover:bg-[#ffa6c9] text-white transition-colors"
+                  className="w-10 h-10 bg-josseypink1 rounded-full flex items-center justify-center hover:bg-josseypink2 text-white transition-colors"
                 >
                   <Phone size={18} />
                 </a>
@@ -120,7 +120,7 @@ export default function Contact() {
                   href="https://linkedin.com/in/josseycodes" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-[#ff69b4] rounded-full flex items-center justify-center hover:bg-[#ffa6c9] text-white transition-colors"
+                  className="w-10 h-10 bg-josseypink1 rounded-full flex items-center justify-center hover:bg-josseypink2 text-white transition-colors"
                 >
                   <MapPin size={18} />
                 </a>
@@ -145,7 +145,7 @@ export default function Contact() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff69b4] focus:border-transparent transition-all duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-josseypink1 focus:border-transparent transition-all duration-200"
                     placeholder="Your full name"
                   />
                 </div>
@@ -160,7 +160,7 @@ export default function Contact() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff69b4] focus:border-transparent transition-all duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-josseypink1 focus:border-transparent transition-all duration-200"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -177,7 +177,7 @@ export default function Contact() {
                   required
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff69b4] focus:border-transparent transition-all duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-josseypink1 focus:border-transparent transition-all duration-200"
                   placeholder="What is this regarding?"
                 />
               </div>
@@ -193,7 +193,7 @@ export default function Contact() {
                   rows={5}
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff69b4] focus:border-transparent transition-all duration-200 resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-josseypink1 focus:border-transparent transition-all duration-200 resize-none"
                   placeholder="Tell us about your project..."
                 ></textarea>
               </div>
@@ -201,7 +201,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-[#ff69b4] hover:bg-[#ffa6c9] text-white font-medium py-4 px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-josseypink1 hover:bg-josseypink2 text-white font-medium py-4 px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Send size={20} />
                 <span>{isSubmitting ? 'Opening Email...' : 'Send Message'}</span>

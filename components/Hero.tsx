@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="container mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
           Building Digital
-          <span className="text-[#ff69b4] block">Experiences</span>
+          <span className="text-josseypink1 block">Experiences</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
@@ -17,13 +17,13 @@ export default function Hero() {
             href="https://wa.me/2347051523893" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-[#ff69b4] hover:bg-[#ffa6c9] text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+            className="bg-josseypink1 hover:bg-josseypink2 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
           >
             Start Your Project
           </a>
           <a 
             href="#portfolio"
-            className="border border-gray-300 hover:border-[#ff69b4] text-gray-700 hover:text-[#ff69b4] font-medium py-3 px-6 rounded-lg transition-all duration-200"
+            className="border border-gray-300 hover:border-josseypink1 text-gray-700 hover:text-josseypink1 font-medium py-3 px-6 rounded-lg transition-all duration-200"
           >
             View Our Work
           </a>

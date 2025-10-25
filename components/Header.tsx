@@ -27,11 +27,11 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Home</a>
-            <a href="#services" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Services</a>
-            <a href="#portfolio" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Portfolio</a>
-            <a href="#about" className="text-gray-700 hover:text-[#ff69b4] transition-colors">About</a>
-            <a href="#contact" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Contact</a>
+            <a href="#home" className="text-gray-700 hover:text-josseypink1 transition-colors">Home</a>
+            <a href="#services" className="text-gray-700 hover:text-josseypink1 transition-colors">Services</a>
+            <a href="#portfolio" className="text-gray-700 hover:text-josseypink1 transition-colors">Portfolio</a>
+            <a href="#about" className="text-gray-700 hover:text-josseypink1 transition-colors">About</a>
+            <a href="#contact" className="text-gray-700 hover:text-josseypink1 transition-colors">Contact</a>
           </nav>
 
           {/* CTA Button - Right Side */}
@@ -40,7 +40,7 @@ export default function Header() {
               href="https://wa.me/2347051523893" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hidden md:block bg-[#ff69b4] hover:bg-[#ffa6c9] text-white font-medium py-2 px-6 rounded-lg transition-colors duration-200"
+              className="hidden md:block bg-josseypink1 hover:bg-josseypink2 text-white font-medium py-2 px-6 rounded-lg transition-colors duration-200"
             >
               Get Started
             </a>
@@ -59,16 +59,16 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100">
             <div className="flex flex-col space-y-4 p-6">
-              <a href="#home" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Home</a>
-              <a href="#services" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Services</a>
-              <a href="#portfolio" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Portfolio</a>
-              <a href="#about" className="text-gray-700 hover:text-[#ff69b4] transition-colors">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-[#ff69b4] transition-colors">Contact</a>
+              <a href="#home" className="text-gray-700 hover:text-josseypink1 transition-colors">Home</a>
+              <a href="#services" className="text-gray-700 hover:text-josseypink1 transition-colors">Services</a>
+              <a href="#portfolio" className="text-gray-700 hover:text-josseypink1 transition-colors">Portfolio</a>
+              <a href="#about" className="text-gray-700 hover:text-josseypink1 transition-colors">About</a>
+              <a href="#contact" className="text-gray-700 hover:text-josseypink1 transition-colors">Contact</a>
               <a 
                 href="https://wa.me/2347051523893" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-[#ff69b4] hover:bg-[#ffa6c9] text-white font-medium py-2 px-6 rounded-lg transition-colors duration-200 w-full text-center mt-4"
+                className="bg-josseypink1 hover:bg-josseypink2 text-white font-medium py-2 px-6 rounded-lg transition-colors duration-200 w-full text-center mt-4"
               >
                 Get Started
               </a>

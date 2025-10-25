@@ -62,14 +62,14 @@ const PortfolioSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             SOME EXAMPLES OF OUR WORKS
           </h2>
-          <div className="w-20 h-1 bg-[#ff69b4] mx-auto mb-4"></div>
+          <div className="w-20 h-1 bg-josseypink1 mx-auto mb-4"></div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             As the top web designer in Nigeria and a leading web design company in Lagos, 
             we've poured our hearts into hundreds of projects.
           </p>
         </div>
 
-        {/* Portfolio Grid - Better spacing and layout */}
+        {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioItems.map((item) => (
             <div
@@ -90,7 +90,7 @@ const PortfolioSection = () => {
               {/* Content */}
               <div className="p-5">
                 <div className="mb-3">
-                  <span className="inline-block bg-[#ffa6c9] text-gray-900 text-xs font-medium px-2 py-1 rounded">
+                  <span className="inline-block bg-josseypink2 text-gray-900 text-xs font-medium px-2 py-1 rounded">
                     {item.category}
                   </span>
                 </div>
@@ -107,7 +107,7 @@ const PortfolioSection = () => {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#ff69b4] hover:bg-[#ffa6c9] text-white text-sm font-medium px-4 py-2 rounded transition-colors duration-200"
+                  className="inline-block bg-josseypink1 hover:bg-josseypink2 text-white text-sm font-medium px-4 py-2 rounded transition-colors duration-200"
                 >
                   View Project
                 </a>
@@ -125,7 +125,7 @@ const PortfolioSection = () => {
             href="https://github.com/josseycodes1" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block border-2 border-[#ff69b4] text-[#ff69b4] hover:bg-[#ff69b4] hover:text-white px-8 py-3 rounded-lg transition-all duration-300 font-medium"
+            className="inline-block border-2 border-josseypink1 text-josseypink1 hover:bg-josseypink1 hover:text-white px-8 py-3 rounded-lg transition-all duration-300 font-medium"
           >
             View More Projects
           </a>

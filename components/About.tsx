@@ -7,7 +7,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             About Naija Website Designer
           </h2>
-          <div className="w-20 h-1 bg-[#ff69b4] mx-auto"></div>
+          <div className="w-20 h-1 bg-josseypink1 mx-auto"></div>
         </div>
 
         {/* Content */}
@@ -23,20 +23,20 @@ export default function About() {
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-          <div className="text-center p-6 border border-pink-200 rounded-lg">
-            <div className="text-2xl font-bold text-[#ff69b4] mb-2">Consultation</div>
+          <div className="text-center p-6 border border-josseypink2 rounded-lg">
+            <div className="text-2xl font-bold text-josseypink1 mb-2">Consultation</div>
             <div className="text-gray-600 text-sm">Get our quotes and consultations for free</div>
           </div>
-          <div className="text-center p-6 border border-pink-200 rounded-lg">
-            <div className="text-2xl font-bold text-[#ff69b4] mb-2">Nationwide</div>
+          <div className="text-center p-6 border border-josseypink2 rounded-lg">
+            <div className="text-2xl font-bold text-josseypink1 mb-2">Nationwide</div>
             <div className="text-gray-600 text-sm">You can reach us anywhere online</div>
           </div>
-          <div className="text-center p-6 border border-pink-200 rounded-lg">
-            <div className="text-2xl font-bold text-[#ff69b4] mb-2">500+ Clients</div>
+          <div className="text-center p-6 border border-josseypink2 rounded-lg">
+            <div className="text-2xl font-bold text-josseypink1 mb-2">500+ Clients</div>
             <div className="text-gray-600 text-sm">Satisfied customers nationwide</div>
           </div>
-          <div className="text-center p-6 border border-pink-200 rounded-lg">
-            <div className="text-2xl font-bold text-[#ff69b4] mb-2">24/7 Support</div>
+          <div className="text-center p-6 border border-josseypink2 rounded-lg">
+            <div className="text-2xl font-bold text-josseypink1 mb-2">24/7 Support</div>
             <div className="text-gray-600 text-sm">Always here to help you</div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function About() {
             href="https://wa.me/2347051523893" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block border-2 border-[#ff69b4] text-[#ff69b4] hover:bg-[#ff69b4] hover:text-white px-8 py-3 rounded-lg transition-all duration-300 font-medium"
+            className="inline-block border-2 border-josseypink1 text-josseypink1 hover:bg-josseypink1 hover:text-white px-8 py-3 rounded-lg transition-all duration-300 font-medium"
           >
             Get Free Consultations
           </a>
