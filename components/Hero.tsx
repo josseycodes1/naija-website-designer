@@ -25,7 +25,7 @@ export default function Hero() {
             href="#portfolio"
             className="border border-gray-300 hover:border-josseypink1 text-gray-700 hover:text-josseypink1 font-medium py-3 px-6 rounded-lg transition-all duration-200 w-full sm:w-auto text-center"
           >
-            View Our Work
+            View Our Works
           </a>
         </div>
         
