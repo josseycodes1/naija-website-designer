@@ -40,9 +40,9 @@ body {
 
 :root {
   
-  --color-josseypink2: #f472b6;  /* pink-400 */
-  --color-josseypink1: #f9a8d4;  /* pink-300 */
-  --color-josseypink3: #ec4899;  /* pink-500 */
+  --color-josseypink3: #f472b6;  /* pink-400 */
+  --color-josseypink2: #f9a8d4;  /* pink-300 */
+  --color-josseypink1: #ec4899;  /* pink-500 */
   --color-josseypink4: #fbcfe8;  /* pink-200 */
   --color-josseypink5: #db2777;  /* pink-600 */
 }
