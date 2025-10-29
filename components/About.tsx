@@ -13,11 +13,11 @@ export default function About() {
         {/* Content */}
         <div className="text-center">
           <p className="text-gray-700 mb-6 leading-relaxed text-base sm:text-lg">
-            Naija Website Designer are the best web designers in Nigeria. We are passionate about helping businesses in the retail, finance, health and corporate industries fully leverage the latest <strong>software technologies</strong>. As a top web design company in Lagos and Abuja, our tech team is dedicated to create websites that meet your exact needs because we pride ourselves on being the best web designers in Nigeria.
+            Naija Website Designer is one of the best website designers in Nigeria. We are passionate about helping businesses in the retail, finance, health and corporate industries fully leverage the latest <strong>software technologies</strong>. As a top web design company in Nigeria, our tech team is dedicated to create websites that meet your exact needs because we pride ourselves on being the best web designers in Nigeria.
           </p>
           
           <p className="text-gray-700 mb-12 leading-relaxed text-base sm:text-lg">
-            We build corporate business websites and ecommerce websites for all kinds of businesses across <strong>industries in Nigeria</strong> and beyond. Our services include responsive website design, ecommerce website development via Shopify or WooCommerce, WordPress web development, website maintenance, website redesign, SEO, mobile app dev, social media management and many more.
+            We build corporate business websites and ecommerce websites for all kinds of businesses across <strong>industries in Nigeria</strong> and beyond. Our services include responsive website design, ecommerce website development, WordPress web development, website maintenance, website redesign, SEO, mobile app dev, social media management and many more.
           </p>
         </div>
 
